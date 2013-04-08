@@ -1,0 +1,106 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+	background: #59c4b1;
+
+        /* 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        */
+	}
+
+	.container p {
+	color: #fff;
+	line-height: 100px;
+        /*
+	background: #6bc459;
+        */
+	text-align: center;
+	margin: 20px 0 0 0;
+	}
+
+        .contact-links p {
+            font-size: 40px;
+            text-align: right;
+            text-decoration: none;
+        }
+
+        .profile-icon p {
+            text-align: left;
+            
+        }
+
+        a:link {
+            text-decoration:none;
+            color: #ffffff;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .icon-envelope-alt:hover{
+            color:#d14836;
+        }
+
+        .icon-github:hover{
+            color: #000000;
+        }
+
+        .icon-tumblr:hover{
+            color: #2f4b66;
+        }
+
+        .icon-linkedin:hover{
+            color:#71c5ef;
+        }
+
+        .icon-pinterest:hover{
+            color:#de404a;
+        }
+
+        .name-intro p {
+            font-size: 100px;
+            font-family: 'Gabriela', serif;
+        }
+
+        .para-intro p {
+            font-size: 25px;
+            text-align: left;
+            line-height: 130%;
+        }
+
+        .projects p {
+            line-height: 120%;
+            text-align: left;
+        }
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
