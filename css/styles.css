@@ -23,14 +23,18 @@
 	}
 
         .contact-links p {
-            font-size: 40px;
+            font-size: 45px;
             text-align: right;
             text-decoration: none;
         }
 
         .profile-icon p {
             text-align: left;
+            line-height: 0px;
             
+        }
+        .profile-icon img {
+            height: 100px;
         }
 
         a:link {
